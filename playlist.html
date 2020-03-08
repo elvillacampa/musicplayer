@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audify | Playlist</title>
+	<script type="text/javascript" src="resources/js/jquery.js"></script>
+	<script type="text/javascript" src="resources/js/bootstrap.js"></script>
+	<script type="text/javascript" src="resources/js/popper.min.js"></script>
+	<script type="text/javascript" src="resources/js/custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="resources/fa/css/font-awesome.css">
+	<link rel="icon" href="resources/images/logo-black.png">
+</head>
+<body class="bg-black-">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+			<a class="navbar-brand ml-3" href="#">
+				<img src="resources/images/logo-white.png" width="50" class="d-inline-block" alt="">
+			Audify
+			</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse my-2 my-lg-0" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto mr-lg-3">
+		      <li class="nav-item active mr-5">
+		        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item active mr-5">
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			    </form>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Louise Joy
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <!-- <a class="dropdown-item" href="#">Account</a> -->
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="landing.html">Logout</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+
+	<div class="container">
+
+	<div class="row mt-lg-5 ">
+		<div class="col-5 border-right">
+		<figure class="figure">
+		  <img src="resources/images/playlist/1.jpg" class="figure-img img-fluid" style="border-radius: 2rem" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption text-center text-white">
+		  	<h4>Peaceful Piano</h4>
+		  </figcaption>
+		</figure>
+			<!-- <img src="resources/images/playlist/1.jpg" style="width: 400; height: 300px; border-radius: 1rem;"> -->
+		</div>
+		<div class="col bg-black-">
+			<ul class="list-group list-group-flush ">
+			  <li name="desperado" style="cursor: pointer;"  class="player list-group-item bg-black- text-success">
+			  	<i class="fa fa-music fa-lg p-2"></i>Desperado
+			  </li>
+			  <li name="green" style="cursor: pointer;" class="player list-group-item bg-black- text-success">
+			  	<i class="fa fa-music fa-lg p-2"></i>Green Green Grass of Home</li>
+			  <li name="believes" style="cursor: pointer;" class="player list-group-item bg-black- text-success">
+			  	<i class="fa fa-music fa-lg p-2"></i>She Believes in me</li>
+			  <li name="through"style="cursor: pointer;" class="player list-group-item bg-black- text-success">
+			  	<i class="fa fa-music fa-lg p-2"></i>Through the years</li>
+			  <li name="decorated" style="cursor: pointer;" class="player list-group-item bg-black- text-success">
+			  	<i class="fa fa-music fa-lg p-2"></i>You decorated my life</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row border-top mt-lg-4" >
+		    <div class="container-audio col mt-lg-4 offset-2">
+		        <audio controls loop style="width: 80%" class="audios" id="desperado">
+		                   <source id="audio_src" src="resources/audio/desperado.mp3" type="audio/ogg">
+		                   Your browser dose not Support the audio Tag
+		        </audio>
+		        <audio controls  loop style="width: 80%" class="audios" id="green">
+		                   <source id="audio_src" src="resources/audio/green green grass of home.mp3" type="audio/ogg">
+		                   Your browser dose not Support the audio Tag
+		        </audio>
+		        <audio controls  loop style="width: 80%" class="audios" id="believes">
+		                   <source id="audio_src" src="resources/audio/she believes in me.mp3" type="audio/ogg">
+		                   Your browser dose not Support the audio Tag
+		        </audio>
+		        <audio controls  loop style="width: 80%" class="audios" id="through">
+		                   <source id="audio_src" src="resources/audio/THROUGH THE YEARS.mp3" type="audio/ogg">
+		                   Your browser dose not Support the audio Tag
+		        </audio>
+		        <audio controls  loop style="width: 80%" class="audios" id="decorated">
+		                   <source id="audio_src" src="resources/audio/you decorated my life.mp3" type="audio/ogg">
+		                   Your browser dose not Support the audio Tag
+		        </audio>
+		    </div>
+	</div>
+	</div>
+</body>
+</html>

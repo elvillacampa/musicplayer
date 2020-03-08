@@ -1,0 +1,22 @@
+/*external css*/
+.btn-hover-green : hover{
+	color: green !important;
+}
+
+.bg-black{
+	background-color: black;
+}
+.bg-black-{
+	background-color: #0f0f0f;
+}
+.bg-black--{
+	background-color: #323232;
+}
+.bg-green{
+	background-color: #004F00;
+}
+
+.playing{
+	color: white !important;
+	background-color: #004F00; ///greeen
+}
